@@ -714,6 +714,193 @@ background:linear-gradient(
     box-shadow:-10px 10px 30px rgba(26,115,232,0.10);
 }
 
+
+/* ======================================== */
+/* COMPARISON_SECTION */
+/* ======================================== */
+
+.comparison-section{
+    width:100%;
+    background:#FFFFFF;
+    padding:120px 0;
+}
+
+.comparison-container{
+    max-width:1400px;
+    margin:0 auto;
+    padding:0 56px;
+}
+
+.comparison-badge{
+    width:fit-content;
+    height:44px;
+    padding:0 22px;
+    margin:0 auto 32px;
+    background:#FEFEFE;
+    border-radius:1000px;
+    box-shadow:1px 1px 13px rgba(115,115,115,0.40);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:14px;
+    font-weight:700;
+    color:#1A73E8;
+}
+
+.comparison-header{
+    max-width:980px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.comparison-header .problem-title{
+    margin-bottom:24px;
+}
+
+.comparison-header .problem-subtitle{
+    max-width:760px;
+    margin:0 auto;
+}
+
+/* ======================================== */
+/* COMPARISON_CARD_LEFT */
+/* ======================================== */
+
+.comparison-grid{
+    margin-top:72px;
+    max-width:760px;
+    margin-left:auto;
+    margin-right:auto;
+
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:32px;
+}
+
+.comparison-card{
+    background:#EFF3FD;
+    border-radius:12px;
+    padding:40px;
+}
+
+.comparison-card-left{
+    max-width:364px;
+}
+
+.comparison-card-title{
+    font-size:20px;
+    font-weight:600;
+    line-height:1.25;
+    text-align:center;
+    color:#DB2719;
+    margin-bottom:8px;
+}
+
+.comparison-card-title-blue{
+    color:#1A73E8;
+}
+
+.comparison-card-subtitle{
+    font-size:15px;
+    font-weight:400;
+    line-height:1.6;
+    text-align:center;
+    color:#4B5563;
+    margin-bottom:32px;
+}
+
+.comparison-card-list{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.comparison-card-item{
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
+}
+
+.comparison-card-item img{
+    width:20px;
+    height:20px;
+    flex-shrink:0;
+    margin-top:2px;
+}
+
+.comparison-card-item p{
+    font-size:16px;
+    font-weight:500;
+    line-height:1.55;
+    color:#737373;
+}
+
+/* ======================================== */
+/* COMPARISON_SECTION_RESPONSIVE */
+/* ======================================== */
+
+@media (max-width: 992px){
+
+    .comparison-section{
+        padding:72px 0;
+    }
+
+    .comparison-container{
+        padding:0 24px;
+    }
+
+    .comparison-badge{
+        margin-bottom:24px;
+    }
+
+    .comparison-header .problem-title{
+        margin-bottom:18px;
+    }
+
+    .comparison-grid{
+        grid-template-columns:1fr;
+        gap:24px;
+        margin-top:48px;
+        max-width:520px;
+    }
+
+    .comparison-card{
+        padding:24px;
+    }
+
+    .comparison-card-left{
+        max-width:100%;
+    }
+
+    .comparison-card-right{
+        max-width:100%;
+    }
+
+    .problem-cta-wrap{
+        margin-top:48px;
+    }
+
+}
+
+@media (max-width: 576px){
+
+    .comparison-card-title{
+        font-size:18px;
+    }
+
+    .comparison-card-subtitle{
+        font-size:15px;
+    }
+
+    .comparison-card-item p{
+        font-size:15px;
+    }
+
+}
+
+
 /* ======================================== */
 /* FEATURE_SECTION_01_RESPONSIVE */
 /* ======================================== */
@@ -847,3 +1034,5 @@ background:linear-gradient(
     }
 
 }
+
+
