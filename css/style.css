@@ -391,7 +391,7 @@ background:linear-gradient(
 .problem-section{
     width:100%;
     background:#FFFFFF;
-    padding:120px 0 0;
+    padding:120px 0 140px;
 }
 
 .problem-container{
@@ -439,7 +439,7 @@ background:linear-gradient(
 .problem-card{
     background:#EFF3FD;
     border-radius:24px;
-    padding:20px 22px;
+    padding:20px 22px 18px;
     min-height:156px;
 
     display:flex;
@@ -466,6 +466,12 @@ background:linear-gradient(
     display:block;
 }
 
+/* INFO_TILE_02_ICON_ONLY */
+.tile-02 .problem-card-icon img{
+  width:21px;
+  height:21px;
+}
+
 .problem-card-content{
     flex:1;
 }
@@ -483,6 +489,16 @@ background:linear-gradient(
     font-weight:400;
     line-height:1.6;
     color:#737373;
+}
+
+/* PROBLEM_CTA */
+.problem-cta-wrap{
+  margin-top:72px;
+}
+
+.problem-cta-wrap .hero-button{
+  margin-left:auto;
+  margin-right:auto;
 }
 
 /* ======================================== */
