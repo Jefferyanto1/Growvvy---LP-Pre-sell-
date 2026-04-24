@@ -694,6 +694,25 @@ background:linear-gradient(
     max-width:680px;
 }
 
+/* FEATURE_SECTION_04_BODY_BOX */
+
+.feature-section:nth-of-type(6) .feature-text{
+    padding-right:0;
+    margin-right:-24px;
+}
+
+/* FEATURE_SECTION_04_IMAGE_SIZE */
+
+.feature-section:nth-of-type(6) .feature-image{
+    max-width:620px;
+}
+
+/* FEATURE_SECTION_04_IMAGE_SHADOW */
+
+.feature-section:nth-of-type(6) .feature-image-wrap{
+    box-shadow:-10px 10px 30px rgba(26,115,232,0.10);
+}
+
 /* ======================================== */
 /* FEATURE_SECTION_01_RESPONSIVE */
 /* ======================================== */
