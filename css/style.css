@@ -11,6 +11,8 @@
 body{
     font-family:'Inter', sans-serif;
     background:#FFFFFF;
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing:antialiased;
 }
 
 /* ======================================== */
@@ -201,7 +203,7 @@ body{
 .hero-main{
     width:100%;
     position:relative;
-background:linear-gradient(
+    background:linear-gradient(
     to bottom,
     #FFFFFF 0%,
     #FFFFFF 38%,
@@ -441,7 +443,7 @@ background:linear-gradient(
     background:#EFF3FD;
     border-radius:24px;
     padding:20px 22px 18px;
-    min-height:156px;
+    min-height:172px;
 
     display:flex;
     align-items:flex-start;
@@ -1158,6 +1160,7 @@ background:linear-gradient(
 }
 
 
+
 /* ======================================== */
 /* PRICING_SECTION */
 /* ======================================== */
@@ -1691,4 +1694,137 @@ background:linear-gradient(
 
 }
 
+
+/* ======================================== */
+/* THANKYOU_MAIN_TITLE */
+/* ======================================== */
+
+.thankyou-main-title{
+    font-size:39px;
+    font-weight:600;
+    line-height:1.2;
+    letter-spacing:-1px;
+    color:#0A0A0A;
+    margin-bottom:24px;
+
+    background:radial-gradient(
+        circle,
+        rgba(15,64,130,1) 18%,
+        rgba(42,96,183,0.9) 51%,
+        rgba(15,64,130,1) 82%
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+/* ======================================== */
+/* THANKYOU_MAIN_SECTION_SPACING */
+/* ======================================== */
+
+.thankyou-main-section{
+    padding-top:72px;
+}
+
+/* ======================================== */
+/* THANKYOU_SECONDARY_HEADLINE */
+/* ======================================== */
+
+.thankyou-secondary-headline {
+
+    /* COPY BEHAVIOR FROM .problem-title */
+    font-weight: 600;
+    line-height: 115%;
+    margin-top: 104px;
+    margin-bottom:16px;
+
+    /* ONLY DIFFERENCE = SIZE */
+    font-size: 26px;
+
+    /* SAME COLOR AS LP TITLE */
+    color: #0A0A0A;
+}
+
+/* ======================================== */
+/* THANKYOU_BODY_TEXT */
+/* ======================================== */
+
+.thankyou-body-text{
+    max-width:680px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* ======================================== */
+/* THANKYOU_CTA_TEXT */
+/* ======================================== */
+
+.thankyou-cta-text{
+    font-size:16px;
+    line-height:1.6;
+    color:#333333;
+}
+
+/* ======================================== */
+/* THANKYOU_CTA_ADJUSTMENTS */
+/* ======================================== */
+
+.thankyou-cta-section .problem-header h2.problem-title {
+    font-size: 18px;
+}
+
+.thankyou-cta-section .problem-header .primary-button {
+    display: inline-block;
+}
+
+/* ======================================== */
+/* THANKYOU_CTA_SPACING_OVERRIDE */
+/* ======================================== */
+
+.thankyou-cta-section .problem-cta-wrap{
+    margin-top:24px;
+}
+
+/* ======================================== */
+/* THANKYOU_SECTION_GAP_OVERRIDE */
+/* ======================================== */
+
+.thankyou-cta-section{
+    margin-top:-144px;
+}
+
+@media (max-width: 576px){
+
+    .thankyou-cta-section{
+        margin-top:-64px;
+    }
+
+}
+
+/* ======================================== */
+/* THANKYOU_CTA_BUTTON */
+/* ======================================== */
+
+.thankyou-cta-section .hero-button{
+    width:auto;
+    display:inline-flex;
+    padding:18px 48px;
+}
+
+/* ======================================== */
+/* THANKYOU_FOOTER_LINKS */
+/* ======================================== */
+
+.footer-copy a{
+    color:inherit;
+    text-decoration:none;
+}
+
+/* ======================================== */
+/* THANKYOU_FOOTER_SPACING */
+/* ======================================== */
+
+.thankyou-cta-section{
+    padding-bottom:32px;
+}
 
